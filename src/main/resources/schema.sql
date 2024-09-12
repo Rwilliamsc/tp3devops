@@ -1,0 +1,12 @@
+CREATE TABLE "fornecedores" (
+    "id" BIGINT PRIMARY KEY AUTO_INCREMENT,
+    "nome" VARCHAR(255) NOT NULL,
+    "cnpj" VARCHAR(20) NOT NULL,
+    "endereco" VARCHAR(255)
+);
+
+CREATE TABLE produtos (
+  id BIGINT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(255) NOT NULL,
+  preco DECIMAL(10, 2) NOT NULL
+);

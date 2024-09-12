@@ -1,4 +1,4 @@
-package edu.br.infnet.tp3devops.fornecedor.model;
+package edu.br.infnet.tp3devops_jdbc.fornecedor.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
@@ -9,7 +9,7 @@ import org.springframework.data.relational.core.mapping.Table;
 public class Fornecedor {
 
     @Id
-    @Column("id")  // Nome da coluna no banco de dados
+    @Column("id")
     private Long id;
 
     @Column("nome")

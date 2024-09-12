@@ -1,4 +1,4 @@
-package edu.br.infnet.tp3devops.produto.model;
+package edu.br.infnet.tp3devops_jdbc.produto.model;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
@@ -10,6 +10,14 @@ public class Produto {
     private Long id;
     private String nome;
     private Double preco;
+
+    public Produto() {}
+
+    public Produto(Long id, String nome, Double preco) {
+        this.id = id;
+        this.nome = nome;
+        this.preco = preco;
+    }
 
 
     public Long getId() {

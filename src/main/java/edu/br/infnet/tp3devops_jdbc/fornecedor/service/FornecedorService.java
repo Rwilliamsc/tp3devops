@@ -1,7 +1,7 @@
-package edu.br.infnet.tp3devops.fornecedor.service;
+package edu.br.infnet.tp3devops_jdbc.fornecedor.service;
 
-import edu.br.infnet.tp3devops.fornecedor.model.Fornecedor;
-import edu.br.infnet.tp3devops.fornecedor.repository.FornecedorRepository;
+import edu.br.infnet.tp3devops_jdbc.fornecedor.model.Fornecedor;
+import edu.br.infnet.tp3devops_jdbc.fornecedor.repository.FornecedorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

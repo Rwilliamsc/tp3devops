@@ -1,4 +1,4 @@
-package edu.br.infnet.tp3devops;
+package edu.br.infnet.tp3devops_jdbc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

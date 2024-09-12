@@ -1,7 +1,7 @@
-package edu.br.infnet.tp3devops.fornecedor.controller;
+package edu.br.infnet.tp3devops_jdbc.fornecedor.controller;
 
-import edu.br.infnet.tp3devops.fornecedor.model.Fornecedor;
-import edu.br.infnet.tp3devops.fornecedor.service.FornecedorService;
+import edu.br.infnet.tp3devops_jdbc.fornecedor.model.Fornecedor;
+import edu.br.infnet.tp3devops_jdbc.fornecedor.service.FornecedorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
